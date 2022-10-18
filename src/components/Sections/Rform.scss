@@ -1,0 +1,183 @@
+* {
+    input::placeholder {
+        color: rgb(255, 255, 255) !important;
+    }
+
+    input:focus {
+        color: rgb(255, 255, 255) !important;
+
+    }
+}
+
+.form-field {
+    img {
+        position: absolute;
+        top: 73px;
+        right: 15px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .form {
+        margin: auto;
+        width: 50%;
+        padding: 15px;
+        padding: 15px;
+      
+        label {
+            color: white;
+            padding: 10px 0px;
+        }
+
+        input {
+
+            padding: 15px;
+        }
+
+        .button {
+            margin-top: 10px;
+
+            input {
+                background-color: purple;
+
+            }
+
+            padding-top: 15px;
+        }
+    }
+
+
+}
+@media (max-width: 1200px) {
+    .form {
+        margin: auto;
+        width: 50%;
+        padding: 15px;
+        padding: 15px;
+        .form-field {
+            img {
+                position: absolute;
+                top: 65px;
+                right: 15px;
+            }
+        }
+    }}
+    
+
+    @media (max-width: 992px) {
+        .form {
+            margin: auto;
+            width: 70%;
+            padding: 15px;
+            padding: 15px;
+          
+            label {
+                color: white;
+                padding: 10px 0px;
+            }
+    
+            input {
+    
+                padding: 15px;
+            }
+    
+            .button {
+                margin-top: 10px;
+    
+                input {
+                    background-color: purple;
+    
+                }
+    
+                padding-top: 15px;
+            }
+        }
+    
+    
+    }
+@media (min-width: 768px) {
+    div {
+
+
+
+        .form {
+            margin: auto;
+
+            padding: 15px;
+            padding: 15px;
+           
+            label {
+                color: white;
+                padding: 10px 0px;
+            }
+
+            input {
+                background: rgba(255, 255, 255, 0.47);
+                padding: 15px;
+
+                &:focus {
+                    background: rgba(255, 255, 255, 0.47);
+
+                }
+            }
+
+            .button {
+                margin-top: 20px;
+
+                input {
+                    font-family: 'Archivo';
+                    font-weight: 700;
+                    color: #3E1149;
+                    background: #E487FB;
+                    ;
+
+                }
+
+                padding-top: 15px;
+            }
+        }
+
+    }
+}
+
+@media (max-width: 768px) {
+    div {
+
+
+
+        .form {
+            margin: auto;
+            width: 100%;
+            padding: 15px;
+            padding: 15px;
+
+           
+            label {
+                color: white;
+                padding: 10px 0px;
+            }
+
+            input {
+                background-color: rgba(128, 128, 128, 0.608);
+                padding: 15px;
+            }
+
+            .button {
+                margin-top: 20px;
+                font-family: 'Archivo';
+                font-style: normal;
+
+
+                input {
+                    background-color: #E487FB;
+                    color: #3E1149;
+                    font-weight: bold;
+
+                }
+
+                padding-top: 15px;
+            }
+        }
+
+    }
+}
